@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact N24</title>
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <!-- SITE-HEADER -->
+  <header class="site-header">
+    <!-- SITE-HEADER-TOP -->
+    <div class="site-header-top">
+      <div class="site-header-top-container container">
+
+        <!-- SITE-HEADER-LOGO -->
+        <a class="site-header-logo" href="index.html">
+          <img class="logo-img" src="img/logo-purple.svg" alt="N24 logo">
+        </a>
+
+        <!-- CURRENCY-RATES -->
+        <ul class="currency-rates">
+          <li class="currency-rates-item">
+            <b class="currency-rates-type">$</b>
+            <span class="currency-rates-value">10950.60</span>
+          </li>
+          <li class="currency-rates-item">
+            <b class="currency-rates-type">P</b>
+            <span class="currency-rates-value">146.08</span>
+          </li>
+        </ul>
+
+
+        <!-- GLOBAL-SEARCH-FORM -->
+        <form class="global-search-form" action="https://echo.htmlacademy.ru" method="get">
+          <input class="global-search-form-input" type="search" name="search" placeholder="Поиск" aria-label="Поиск" required>
+        </form>
+
+        <!-- LANG-TOGGLE -->
+        <div class="lang-toggle">
+          <a class="lang-toggle-link lang-toggle-link-active" href="index.html">УЗ</a>
+          <a class="lang-toggle-link" href="index.html/ru">РУ</a>
+        </div>
+
+        <!-- SITE-HEADER-AUTH -->
+        <a class="button button-primary" href="#">Войти</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- SITENAV -->
+      <nav class="sitenav">
+        <ul class="sitenav-list">
+          <li class="sitenav-item"><a href="index.html" class="sitenav-link">Главное</a></li>
+          <li class="sitenav-item"><a href="news-list.html" class="sitenav-link">Интересное</a></li>
+          <li class="sitenav-item"><a href="news-list.html" class="sitenav-link">Экономика</a></li>
+          <li class="sitenav-item"><a href="news-list.html" class="sitenav-link">Политика</a></li>
+          <li class="sitenav-item"><a href="news-list.html" class="sitenav-link">Общество</a></li>
+          <li class="sitenav-item"><a href="news-list.html" class="sitenav-link">Технологии</a></li>
+          <li class="sitenav-item"><a href="news-list.html" class="sitenav-link">Спорт</a></li>
+          <li class="sitenav-item"><a href="news-list.html" class="sitenav-link">Культура</a></li>
+          <li class="sitenav-item"><a href="news-list.html" class="sitenav-link">Происшествия</a></li>
+          <li class="sitenav-item"><a href="news-list.html" class="sitenav-link">Наука</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- MAIN-CONTENT -->
+  <main class="main-content">
+    <div class="container">
+      <!-- <h1>Namanganliklar24 - сайт новостей</h1> -->
+      <div class="contact-page">
+          <h2 class="contact-page-heading">Напишите нам</h2>
+          <div class="contact-page-content">
+            <form class="contact-page-form form" action="https://echo.htmlacademy.ru" method="POST">
+              <div class="form-fields">
+                <div class="form-groups-wrapper">
+                  <div class="form-group">
+                    <input class="form-field" type="text" name="name" placeholder="Имя" aria-label="Имя" required>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-field" type="tel" name="phone" placeholder="Номер телефона" aria-label="Номер телефона" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input class="form-field" type="email" name="email" placeholder="Электронная почта" aria-label="Электронная почта" required>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-field form-field-textarea" name="message" placeholder="Текст" aria-label="Текст" required></textarea>
+                </div>
+              </div>
+              <button class="contact-page-form-submit button button-primary" type="submit">Отправить</button>
+            </form>
+            <!-- CONTACT PAGE INFO -->
+            <div class="contact-page-info">
+              <dl class="contact-page-description-list description-list">
+                <div class="description-list-item">
+                  <dt class="description-list-title">Электронная почта</dt>
+                  <dd class="description-list-value"><a class="description-list-link" href="mailto:info@namanganliklar24.uz?subject=N24.uz%20saytidan%20xabar">info@namanganliklar24.uz</a></dd>
+                </div>
+                <div class="description-list-item">
+                  <dt class="description-list-title">Номер телефона</dt>
+                  <dd class="description-list-value"><a class="description-list-link" href="tel:+998885225476">+998 88 522-54-76</a></dd>
+                </div>
+                <div class="description-list-item">
+                  <dt class="description-list-title">Адрес</dt>
+                  <dd class="description-list-value">Ташкент, площадь Мустакиллик, 6 </dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+      </div>
+
+    </div>
+  </main>
+
+
+  <!-- SITE-FOOTER -->
+  <footer class="site-footer">
+    <div class="site-footer-wrapper">
+
+      <a class="site-footer-logo-link" href="index.html"><img class="site-footer-logo-img" src="img/logo-white.svg" alt="N24 logo" width="264" height="28"></a>
+
+      <div class="site-footer-lists">
+        <h3 class="site-footer-lists-heading">Воспроизводство, копирование, использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
+        </h3>
+
+        <div class="site-footer-list-wrapper">
+          <ul class="site-footer-list">
+            <li class="site-footer-item"><a class="site-footer-item-link" href="#">Информация о сайте</a></li>
+            <li class="site-footer-item"><a class="site-footer-item-link" href="contact.html">Напишите нам</a></li>
+            <li class="site-footer-item"><a class="site-footer-item-link" href="#">Реклама</a></li>
+            <li class="site-footer-item"><a class="site-footer-item-link" href="#">Прислать новость</a></li>
+          </ul>
+          <ul class="site-footer-list">
+            <li class="site-footer-item"><a class="site-footer-item-link" href="#">Использование материалов</a></li>
+            <li class="site-footer-item"><a class="site-footer-item-link" href="#">Темы дня</a></li>
+            <li class="site-footer-item"><a class="site-footer-item-link" href="#">Наша команда</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="site-footer-divider">
+
+      <div class="site-footer-socials">
+        <h3 class="site-footer-socials-heading">Наши социальные сети</h3>
+        <ul class="site-footer-social-list">
+          <li class="site-footer-social-item">
+            <a class="site-footer-social-link" href="https://facebook.com">
+              <img class="site-footer-social-img" src="img/icon-facebook.svg" alt="Facebook" width="25" height="25">
+            </a>
+          </li>
+          <li class="site-footer-social-item">
+            <a class="site-footer-social-link" href="https://instagram.com">
+              <img class="site-footer-social-img" src="img/icon-instagram.svg" alt="Instagram" width="25" height="25">
+            </a>
+          </li>
+          <li class="site-footer-social-item">
+            <a class="site-footer-social-link" href="https://telegram.com">
+              <img class="site-footer-social-img" src="img/icon-telegram.svg" alt="Telegram" width="25" height="25">
+            </a>
+          </li>
+          <li class="site-footer-social-item">
+            <a class="site-footer-social-link" href="https://youtube.com">
+              <img class="site-footer-social-img" src="img/icon-youtube.svg" alt="YouTube" width="25" height="25">
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+</body>
+</html>
