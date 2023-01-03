@@ -13,3 +13,16 @@ function closeModal() {
   }
 }
 closeModal();
+
+
+// Sidebar-menu
+const elMenu = document.querySelector('.button-menu');
+const elSitenav = document.querySelector('.sitenav');
+
+elMenu.addEventListener('click', function() {
+  if (elSitenav.classList.contains('open')) {
+    elSitenav.classList.remove('open');
+  } else {
+    elSitenav.classList.add('open');
+  }
+});
