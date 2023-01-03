@@ -22,7 +22,14 @@ const elSitenav = document.querySelector('.sitenav');
 elMenu.addEventListener('click', function() {
   if (elSitenav.classList.contains('open')) {
     elSitenav.classList.remove('open');
+    elMenu.innerHTML = `
+      <img src="img/icon-menu.svg" alt="Menu" width="36" height="36">
+    `;
+
   } else {
     elSitenav.classList.add('open');
+    elMenu.innerHTML = `
+    <img src="img/close.svg" alt="Close" width="36" height="36">
+    `;
   }
 });

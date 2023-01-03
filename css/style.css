@@ -1038,7 +1038,7 @@ margin-right: auto;
   }
 
   .button-menu {
-    display: block;
+    display: flex;
   }
 
   .sitenav {
